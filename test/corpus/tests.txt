@@ -115,7 +115,6 @@ Line comments
 
 =====
 Block comments
-:error
 =====
 
 #||#
@@ -132,3 +131,10 @@ line 3 |#
 
 -----
 
+(kanata
+  (block_comment)
+  (block_comment)
+  (block_comment)
+  (list
+    (unquoted_item))
+  (block_comment))

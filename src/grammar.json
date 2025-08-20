@@ -31,11 +31,11 @@
         },
         {
           "type": "PATTERN",
-          "value": "[.\\n\\r]*"
+          "value": "[^|]*\\|+([^|#][^|]*\\|+)*"
         },
         {
           "type": "STRING",
-          "value": "|#"
+          "value": "#"
         }
       ]
     },

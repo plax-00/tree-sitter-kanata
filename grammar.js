@@ -26,7 +26,7 @@ module.exports = grammar({
 
     line_comment: _ => seq(';;', /[^\n]*/),
 
-    block_comment: _ => seq('#|', /[.\n\r]*/, '|#'),
+    block_comment: _ => seq('#|', /[^|]*\|+([^|#][^|]*\|+)*/, '#'),
 
     list: $ => seq('(', repeat($._item), ')'),
 

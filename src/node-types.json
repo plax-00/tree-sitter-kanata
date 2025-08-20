@@ -2,6 +2,7 @@
   {
     "type": "block_comment",
     "named": true,
+    "extra": true,
     "fields": {}
   },
   {
@@ -23,6 +24,7 @@
   {
     "type": "line_comment",
     "named": true,
+    "extra": true,
     "fields": {}
   },
   {
@@ -58,6 +60,10 @@
     "named": false
   },
   {
+    "type": "#",
+    "named": false
+  },
+  {
     "type": "#|",
     "named": false
   },
@@ -76,9 +82,5 @@
   {
     "type": "unquoted_item",
     "named": true
-  },
-  {
-    "type": "|#",
-    "named": false
   }
 ]
